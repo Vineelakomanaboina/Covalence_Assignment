@@ -1,0 +1,24 @@
+{
+    "city": "City1",
+    "date": "2025-09-11",
+    "summary": {
+        "total_districts": 3,
+        "high_risk_districts": 1,
+        "medium_risk_districts": 1,
+        "low_risk_districts": 0
+    },
+    "critical_alerts": [
+        {
+            "district_id": "101",
+            "Avg % of violations per day": "75.8%",
+            "risk_score": 0.86,
+            "risk_level": "HIGH"
+        },
+        {
+            "district_id": "102",
+            "Avg % of violations per day": "75.0%",
+            "risk_score": 0.45,
+            "risk_level": "MEDIUM"
+        }
+    ]
+}

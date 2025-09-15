@@ -1,0 +1,24 @@
+{
+    "city": "City1",
+    "date": "2025-09-10",
+    "districts": [
+        {
+            "district_id": "101",
+            "threshold": 1.92
+        },
+        {
+            "district_id": "102",
+            "threshold": 1.86
+        },
+        {
+            "district_id": "103",
+            "threshold": 1.88
+        }
+    ],
+    "critical_hours": [
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00"
+    ]
+}
