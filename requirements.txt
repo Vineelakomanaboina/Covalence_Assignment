@@ -1,0 +1,4 @@
+matlplotlib
+seaborn
+pandas
+plotly
