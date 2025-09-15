@@ -30,5 +30,48 @@ Our system must:
 
 pip install -r requirements.txt
 
+---
+
+## Run The project
+
+python main.py
+
+This will:
+
+Generate CSV + JSON data in data/.
+
+Process and merge data.
+
+Compute district/city level statistics.
+
+Save outputs in output/summary_csv/ and output/reports_json/.
+
+---
+
+## Visualize Results
+
+python covalence_assignment_visualization.py
+
+This will:
+Display visualizations (bar charts, line plots, pie charts, heatmaps).
+Save all plots in output/plots/.
+
+---
+
+
 ## 🏗️ Project Structure  
+
+.
+├── main.py # Main program - generates data, processes metrics, saves outputs
+├── covalence_assignment_visualization.ipynb # Visualization script (bar charts, pie charts, heatmaps, etc.)
+├── data/
+│ ├── csv/ # District-level hourly consumption CSV files
+│ └── json/ # City-level metadata JSON files (thresholds, critical hours)
+├── output/
+│ ├── summary_csv/ # Per-city daily summary CSVs
+│ └── reports_json/ # JSON reports with risk alerts
+└── README.md # Project documentation (this file)
+
+---
+
 
