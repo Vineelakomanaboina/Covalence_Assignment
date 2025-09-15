@@ -61,7 +61,7 @@ Save all plots in output/plots/.
 
 ## 🏗️ Project Structure  
 
-.
+
 ├── main.py # Main program - generates data, processes metrics, saves outputs
 
 ├── covalence_assignment_visualization.ipynb # Visualization script (bar charts, pie charts, heatmaps, etc.)
@@ -144,6 +144,11 @@ Interactive Plotly Map → District-wise risk & average consumption
 ## 🖼️ Sample Outputs
 
 1️⃣ City Summary CSV
+
+
+
+
+
 city	district_id	avg_consumption	max_consumption	violations	risk_score	risk_level
 
 
