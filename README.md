@@ -63,19 +63,33 @@ Save all plots in output/plots/.
 
 .
 ├── main.py # Main program - generates data, processes metrics, saves outputs
+
 ├── covalence_assignment_visualization.ipynb # Visualization script (bar charts, pie charts, heatmaps, etc.)
+
 ├── data/
+
+
 │ ├── csv/ # District-level hourly consumption CSV files
+
+
 │ └── json/ # City-level metadata JSON files (thresholds, critical hours)
+
+
 ├── output/
+
+
 │ ├── summary_csv/ # Per-city daily summary CSVs
+
+
 │ └── reports_json/ # JSON reports with risk alerts
+
+
 └── README.md # Project documentation (this file)
 
 ---
 
 
-## 📊 Key Features
+## Explanation of design decisions
 
 ✅ Synthetic Data Generation
 
@@ -120,8 +134,6 @@ Heatmap → Household vs hour consumption
 
 Violation ratio barplot
 
-Correlation heatmap
-
 Boxplot, violin plot, histogram for distribution analysis
 
 Interactive Plotly Map → District-wise risk & average consumption
@@ -133,6 +145,9 @@ Interactive Plotly Map → District-wise risk & average consumption
 
 1️⃣ City Summary CSV
 city	district_id	avg_consumption	max_consumption	violations	risk_score	risk_level
+
+
+
 CityA	     101	         1.43	         3.10	         12	        0.72	     HIGH
 
 
